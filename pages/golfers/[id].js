@@ -11,7 +11,7 @@ const GolfersScores = () => {
   if (!id) {
     return null
   }
-  
+
   return (
     <Layout>
       <>
