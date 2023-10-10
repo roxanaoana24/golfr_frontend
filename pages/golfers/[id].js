@@ -7,9 +7,11 @@ const GolfersScores = () => {
   const router = useRouter()
   const { id } = router.query
   const { scores, error } = useGolfersScores(id)
+
   if (!id) {
     return null
   }
+  
   return (
     <Layout>
       <>

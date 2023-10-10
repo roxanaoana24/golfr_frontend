@@ -16,7 +16,6 @@ const ScoreCard = ({ id, playedAt, totalScore, userId, userName }) => {
         <div className="italic text-gray-400">
           {playedAt}
         </div>
-
         <div>
           {router.pathname !== '/golfers/[id]' && (
             <Link href={`/golfers/${encodeURIComponent(userId)}`}>
